@@ -1,10 +1,16 @@
 const express = require('express')
 const app = express();
 const port = 3001;
+const mainRouter = require('./routes/mainRouter');
 
-app.get('/', (req, res) => {
-  res.send('Hello World!')
-});
+app.set("view engine", "ejs");
+
+app.use(express.static('public'));
+app.use(express.json());
+
+app.use('/', mainRouter);
+app.use('/movieDetail', mainRouter);
+app.use('/about', mainRouter);
 
 app.listen(port, () => {
   console.log(`My Favorite Shows - App - listening on port ${port} 😉`)
