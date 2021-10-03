@@ -9,8 +9,6 @@ app.use(express.static('public'));
 app.use(express.json());
 
 app.use('/', mainRouter);
-app.use('/movieDetail', mainRouter);
-app.use('/about', mainRouter);
 
 app.listen(port, () => {
   console.log(`My Favorite Shows - App - listening on port ${port} 😉`)
