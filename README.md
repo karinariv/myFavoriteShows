@@ -1,2 +1,3 @@
-# myFavoriteShows
-Bootstrap and GitHub Project - 2021
+# My Favorite Shows
+## Bootstrap and GitHub Project - 2021
+_by Karina Rivera_
