@@ -5,8 +5,175 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Favorite Movies - List</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="/css/styles.css">
 </head>
 <body>
-    <p>Here goes the movies list</p>
+    <!-- HEADER -->
+    <header>
+        <nav class="navbar navbar-expand-md py-4 navbar-dark main-bg-color">
+            <div class="container">
+                <a href="/" class="navbar-brand a-link">My Favorite Shows</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navigationMenu">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navigationMenu">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item px-4">
+                            <a href="#movies" class="navlink a-link lead">Movies</a>
+                        </li>
+                        <li class="nav-item px-4">
+                            <a href="#series" class="navlink a-link lead">Series</a>
+                        </li>
+                        <li class="nav-item px-4">
+                            <a href="#documentaries" class="navlink a-link lead">Documentaries</a>
+                        </li>
+                        <li class="nav-item px-4">
+                            <a href="/about" class="navlink a-link lead">About</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- MAIN -->
+    <main class="container-fluid bg-purple-bg adding-top-space">
+
+        <!-- MOVIES SECTION -->
+            <section id="movies" class="adding-bottom-space">
+                <h2 class="main-txt-color text-sm-start text-md-center">MOVIES   <i class="fas fa-video"></i></h2>
+                <div class="container">
+                    <div class="row g-4">
+                        <% for (let i = 0; i < movies.length; i++) { %>
+                        <div class="col-md-6 col-lg-3">
+                            <div class="card cards-bg-color card-height">
+                                <div class="card-body height ">
+                                    <div class="poster ms-auto fits-and-rounded">
+                                        <a href="/movieDetail/<%= movies[i].id %>" class="a-b-link">
+                                            <img src="<%= movies[i].image %>" class="">
+                                            <h3 class="card-title text-center mb-2 a-b-link"><%= movies[i].name %></h3>
+                                            <p class="card-text text-justify a-b-link"><%= movies[i].description %></p>
+                                            <div class="container-fluid">
+                                                <p class="a-b-link text-center"><%= movies[i].stars %></p>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <% } %>
+                    </div>
+                </div>
+            </section>
+        <!-- SERIES SECTION -->
+        <section id="series" class="adding-bottom-space">
+            <h2 class="main-txt-color text-sm-start text-md-center">SERIES   <i class="fas fa-photo-video"></i></h2>
+            <div class="container">
+                <div class="row g-4">
+                    <% for (let i = 0; i < series.length; i++) { %>
+                    <div class="col-md-6 col-lg-3">
+                        <div class="card cards-bg-color card-height">
+                            <div class="card-body height">
+                                <div class="poster ms-auto fits-and-rounded">
+                                    <a href="/seriesDetail/<%= series[i].id %>" class="a-b-link">
+                                        <img src="<%= series[i].image %>" class="">
+                                        <h3 class="card-title text-center mb-2 a-b-link"><%= series[i].name %></h3>
+                                        <p class="card-text text-justify a-b-link"><%= series[i].description %></p>
+                                        <div class="container-fluid">
+                                            <p class="a-b-link text-center"><%= series[i].stars %></p>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <% } %>
+                </div>
+            </div>
+        </section>
+        <!-- DOCUMENTARIES SECTION -->
+        <section id="documentaries" class="adding-bottom-space">
+            <h2 class="main-txt-color text-sm-start text-md-center">DOCUMENTARIES   <i class="fas fa-file-video"></i></h2>
+            <div class="container">
+                <div class="row g-4">
+                    <% for (let i = 0; i < documentaries.length; i++) { %>
+                    <div class="col-md-6 col-lg-3 ">
+                        <div class="card cards-bg-color card-height">
+                            <div class="card-body height">
+                                <div class="poster ms-auto fits-and-rounded">
+                                    <a href="/documentaryDetail/<%= documentaries[i].id %>" class="a-b-link">
+                                        <img src="<%= documentaries[i].image %>" class="">
+                                        <h3 class="card-title text-center mb-2 a-b-link"><%= documentaries[i].name %></h3>
+                                        <p class="card-text text-justify a-b-link"><%= documentaries[i].description %></p>
+                                        <div class="container-fluid">
+                                            <p class="a-b-link text-center"><%= documentaries[i].stars %></p>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <% } %>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="p-4 main-bg-color text-white ">
+        <div class="container d-flex align-items-center justify-content-between">
+            <div class="col-sm text-center">
+                <a href="/about" class="a-link">
+                    <span class="lean">About</span>
+                </a>
+            </div>
+            <div class="col-sm text-center d-none d-lg-block">
+                <button type="button" class="btn a-link lean" data-bs-toggle="modal" data-bs-target="#socialMediaModal">
+                    Social Media
+                  </button>
+            </div>
+            <div class="col-sm text-center">
+                <span class="lean a-link"><em>by Karina Rivera</em></span>
+            </div>
+        </div>
+    </footer>
+
+    <!-- MODAL -->
+    <div class="modal fade" id="socialMediaModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Follow Me on Social Media</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <div class="container d-flex">
+                <div class="row col">
+                    <a href="https://www.facebook.com/">
+                        <img src="/img/socialMedia/fb.png" alt="facebook" class="fits-and-rounded">
+                    </a>
+                </div>
+                <div class="row col">
+                    <a href="https://www.instagram.com">
+                        <img src="/img/socialMedia/ig.png" alt="instagram" class="fits-and-rounded">
+                    </a>
+                </div>
+                <div class="row col">
+                    <a href="https://www.twitter.com">
+                        <img src="/img/socialMedia/tw.png" alt="twitter" class="fits-and-rounded">
+                    </a>
+                </div>
+              </div>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn main-bg-color" data-bs-dismiss="modal">Of Course!</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
 </body>
 </html>

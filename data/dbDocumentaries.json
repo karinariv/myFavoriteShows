@@ -1,0 +1,42 @@
+[
+    {
+        "id": 1,
+        "name": "Earthlings",
+        "description": "Earthlings chronicles the day-to-day practices of the largest industries in the world",
+        "largerDescription": "Using hidden cameras and never-before-seen footage, Earthlings chronicles the day-to-day practices of the largest industries in the world, all of which rely entirely on animals for profit.",
+        "stars": "💜💜",
+        "image":  "/img/documentaries/earthlings.jpg",
+        "type": "documentary",
+        "released": 2005
+    },
+    {
+        "id": 2,
+        "name": "Earthlings",
+        "description": "Earthlings chronicles the day-to-day practices of the largest industries in the world",
+        "largerDescription": "Using hidden cameras and never-before-seen footage, Earthlings chronicles the day-to-day practices of the largest industries in the world, all of which rely entirely on animals for profit.",
+        "stars": "💜💜",
+        "image":  "/img/documentaries/earthlings.jpg",
+        "type": "documentary",
+        "released": 2005
+    },
+    {
+        "id": 3,
+        "name": "Earthlings",
+        "description": "Earthlings chronicles the day-to-day practices of the largest industries in the world",
+        "largerDescription": "Using hidden cameras and never-before-seen footage, Earthlings chronicles the day-to-day practices of the largest industries in the world, all of which rely entirely on animals for profit.",
+        "stars": "💜💜",
+        "image":  "/img/documentaries/earthlings.jpg",
+        "type": "documentary",
+        "released": 2005
+    },
+    {
+        "id": 4,
+        "name": "Earthlings",
+        "description": "Earthlings chronicles the day-to-day practices of the largest industries in the world",
+        "largerDescription": "Using hidden cameras and never-before-seen footage, Earthlings chronicles the day-to-day practices of the largest industries in the world, all of which rely entirely on animals for profit.",
+        "stars": "💜💜",
+        "image":  "/img/documentaries/earthlings.jpg",
+        "type": "documentary",
+        "released": 2005
+    }
+]

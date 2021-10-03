@@ -1,0 +1,42 @@
+[
+    {
+        "id": 1,
+        "name": "The OA",
+        "description": "The OA is an American mystery drama television series.",
+        "largerDescription": "The OA is an American mystery drama television series with science fiction, supernatural, and fantasy elements. ... In the series, Marling stars as a young woman named Prairie Johnson who resurfaces after having been missing for seven years.",
+        "stars": "💜💜💜💜💜",
+        "image":  "/img/series/TheOA.jpg",
+        "type": "series",
+        "released": "2016"
+    },
+    {
+        "id": 2,
+        "name": "Orphan Black",
+        "description": "Orphan Black is a Canadian dramatic conspiracy thriller and science fiction television series",
+        "largerDescription": "Orphan Black is a Canadian dramatic conspiracy thriller and science fiction television series that premiered on March 30, 2013. The series stars Tatiana Maslany as Sarah, a woman who steals the identity of a suicide victim who looks exactly like her. Sarah has always lived the life of an orphan outsider.",
+        "stars": "💜💜💜💜💜",
+        "image":  "/img/series/OrphanBlack.jpg",
+        "type": "series",
+        "released": 2013
+    },
+    {
+        "id": 3,
+        "name": "Black Mirror",
+        "description": "Black Mirror is a British television anthology series created by Charlie Brooker",
+        "largerDescription": "Black Mirror is a British television anthology series created by Charlie Brooker that features speculative fiction with dark and sometimes satirical themes that examine modern society, particularly with regard to the unanticipated consequences of new technologies.",
+        "stars": "💜💜💜💜",
+        "image":  "/img/series/BlackMirror.jpg",
+        "type": "series",
+        "released": 2011
+    },
+    {
+        "id": 4,
+        "name": "The A List",
+        "description": "The A List is a British teen thriller streaming television series",
+        "largerDescription": "The A List is a British teen thriller streaming television series created by Dan Berlinka and Nina Metivier, released on BBC iPlayer on 25 October 2018. The central character is Mia (Lisa Ambalavanar), who arrives at a summer camp on an island that turns out to hold dark secrets.",
+        "stars": "💜💜💜",
+        "image":  "/img/series/TheAList.jpg",
+        "type": "series",
+        "released": 2018
+    }
+]

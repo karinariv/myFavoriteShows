@@ -5,8 +5,139 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Favorite Movies - About</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="/css/styles.css">
 </head>
 <body>
-    <p>Here goes about content</p>
+    <!-- HEADER -->
+    <header>
+        <nav class="navbar navbar-expand-md py-4 navbar-dark main-bg-color">
+            <div class="container">
+                <a href="/" class="navbar-brand a-link">My Favorite Shows</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navigationMenu">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navigationMenu">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item px-4">
+                            <a href="#movies" class="navlink a-link lead">Movies</a>
+                        </li>
+                        <li class="nav-item px-4">
+                            <a href="#series" class="navlink a-link lead">Series</a>
+                        </li>
+                        <li class="nav-item px-4">
+                            <a href="#documentaries" class="navlink a-link lead">Documentaries</a>
+                        </li>
+                        <li class="nav-item px-4">
+                            <a href="/about" class="navlink a-link lead">About</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- MAIN -->
+    <main class="container-fluid bg-purple-bg">
+
+        <!-- CAROUSEL -->
+        <h2 class="text-center"><strong>ABOUT</strong></h2>
+        <div id="InformativeCarousel" class="carousel carousel-dark slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#InformativeCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#InformativeCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#InformativeCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active" data-bs-interval="10000">
+                <img src="/img/slides/Slide1.jpg" class="d-block w-100 h-100 size-control" alt="">
+                <div class="carousel-caption d-block">
+                  <h5 class="size-A white-text">This web site</h5>
+                  <p class="size-B white-text">Is part of a project to make use of Bootstrap in it's version 5.1</p>
+                </div>
+              </div>
+              <div class="carousel-item" data-bs-interval="2000">
+                <img src="/img/slides/Slide2.jpg" class="d-block w-100 h-100 size-control" alt="">
+                <div class="carousel-caption d-block">
+                  <h5 class="size-A">This web site</h5>
+                  <p class="size-B">Is also intended to practice the use of GitHub</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="/img/slides/Slide3.jpg" class="d-block w-100 h-100 size-control" alt="">
+                <div class="carousel-caption d-block">
+                  <h5 class="size-A white-text">This web site</h5>
+                  <p class="size-B white-text">Was designed and built by <strong>Karina Rivera</strong> in October 2021</p>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#InformativeCarousel" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#InformativeCarousel" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="p-4 main-bg-color text-white ">
+        <div class="container d-flex align-items-center justify-content-between">
+            <div class="col-sm text-center">
+                <a href="/" class="a-link">
+                    <span class="lean">Go back to main page</span>
+                </a>
+            </div>
+            <div class="col-sm text-center d-none d-lg-block">
+                <button type="button" class="btn a-link lean" data-bs-toggle="modal" data-bs-target="#socialMediaModal">
+                    Social Media
+                  </button>
+            </div>
+            <div class="col-sm text-center">
+                <span class="lean a-link"><em>by Karina Rivera</em></span>
+            </div>
+        </div>
+    </footer>
+
+    <!-- MODAL -->
+    <div class="modal fade" id="socialMediaModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Follow Me on Social Media</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <div class="container d-flex">
+                <div class="row col">
+                    <a href="https://www.facebook.com/">
+                        <img src="/img/socialMedia/fb.png" alt="facebook" class="fits-and-rounded">
+                    </a>
+                </div>
+                <div class="row col">
+                    <a href="https://www.instagram.com">
+                        <img src="/img/socialMedia/ig.png" alt="instagram" class="fits-and-rounded">
+                    </a>
+                </div>
+                <div class="row col">
+                    <a href="https://www.twitter.com">
+                        <img src="/img/socialMedia/tw.png" alt="twitter" class="fits-and-rounded">
+                    </a>
+                </div>
+              </div>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn main-bg-color" data-bs-dismiss="modal">Of Course!</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+    
 </body>
 </html>

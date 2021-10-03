@@ -1,0 +1,109 @@
+:root {
+    --main-color: #916BBF;
+    --secondary-color: #C996CC;
+    --main-text-color: #3D2C8D;
+    --cards-color: #4B3869;
+}
+
+.a-link {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.a-b-link {
+    text-decoration: none;
+    color: black;
+}
+
+.a-link:hover {
+    color: pink;
+}
+
+.shadow:hover {
+    box-shadow: 0px 0px 10px rgba(128, 128, 128, .4);
+}
+
+.main-bg-color {
+    background-color: var(--main-color);
+}
+
+.bg-purple-bg{
+    background-color: var(--secondary-color);
+}
+
+.cards-bg-color {
+    background-color: var(--cards-color);
+}
+
+.adding-top-space {
+    padding-top: 5.5rem;
+}
+
+.adding-bottom-space {
+    padding-bottom: 6rem;
+}
+
+.main-txt-color {
+    color: var(--main-text-color);
+}
+
+.fits-and-rounded {
+    width: 90%;
+    border-radius: 10px;
+    height: auto;
+}
+
+.fits-and-rounded img {
+    height: 100%;
+    width: 100%;
+    width: 250x;
+    height: 250px;
+    object-fit: cover;
+}
+
+.card-height {
+    height: 460px;
+    width: auto;
+}
+
+.poster {
+    height: 280px;
+    width: 210px;
+    margin: auto;
+}
+
+.height {
+    height: 100%;
+}
+
+.image-detail {
+    height: auto;
+    width: 450px;
+    margin: auto;
+}
+
+.image-fits img{
+    height: 100%;
+    width: 100%;
+    width: 420px;
+    height: 420px;
+    object-fit: cover;
+}
+
+.size-A {
+    font-size: 120%;
+}
+
+.white-text {
+    color: white;
+}
+
+.size-B {
+    font-size: 100%;
+}
+
+.size-control {
+    max-width: 800px;
+    max-height: 580px;
+    margin: auto;
+}

@@ -1,0 +1,82 @@
+[
+    {
+        "id": 1,
+        "name": "Ex machina",
+        "description": "Ex Machina is a 2014 science fiction psychological thriller film.",
+        "largerDescription": "Caleb Smith (Domhnall Gleeson) a programmer at a huge Internet company, wins a contest that enables him to spend a week at the private estate of Nathan Bateman (Oscar Isaac), his firm's brilliant CEO. When he arrives, Caleb learns that he has been chosen to be the human component in a Turing test to determine the capabilities and consciousness of Ava (Alicia Vikander), a beautiful robot. However, it soon becomes evident that Ava is far more self-aware and deceptive than either man imagined",
+        "stars": "💜💜💜",
+        "image":  "/img/movies/Ex-machina.jpg",
+        "type": "movie",
+        "released": "2014"
+    },
+    {
+        "id": 2,
+        "name": "WALL-E",
+        "description": "WALL-E is the last robot left on Earth, programmed to clean up the planet",
+        "largerDescription": "WALL•E (Waste Allocation Load Lifter Earth-Class) is the last robot left on Earth, programmed to clean up the planet, one trash cube at a time. However, after 700 years, he's developed one little glitch—a personality. He's extremely curious, highly inquisitive, and a little lonely.",
+        "stars": "💜💜💜💜",
+        "image":  "/img/movies/Wall-E.jpg",
+        "type": "movie",
+        "released": "2008"
+    },
+    {
+        "id": 3,
+        "name": "Tau",
+        "description": "A woman is held captive by a scientist in a futuristic smart house",
+        "largerDescription": "A woman is held captive by a scientist in a futuristic smart house, and hopes to escape by reasoning with the Artificial Intelligence that controls the house. Once a street-smart drifter, Julia (Maika Monroe) is the latest person held captive, a body and a mind to be exploited in a fatal experiment.",
+        "stars": "💜💜💜💜💜",
+        "image":  "/img/movies/Tau.jpg",
+        "type": "movie",
+        "released": "2018"
+    },
+    {
+        "id": 4,
+        "name": "Her",
+        "description": "Her is a 2013 American science-fiction romantic drama film",
+        "largerDescription": "Her is a 2013 American science-fiction romantic drama film written, directed, and produced by Spike Jonze. The film follows Theodore Twombly (Joaquin Phoenix), a man who develops a relationship with Samantha (Scarlett Johansson), an artificially intelligent virtual assistant personified through a female voice.",
+        "stars": "💜💜💜",
+        "image":  "/img/movies/Her.jpg",
+        "type": "movie",
+        "released": "2013"
+    },
+    {
+        "id": 5,
+        "name": "Split",
+        "description": "Split is a 2016 American psychological horror film",
+        "largerDescription": "Split is a 2016 American psychological horror film written, directed and produced by M. Night Shyamalan, and starring James McAvoy, Anya Taylor-Joy, and Betty Buckley. The film follows a man with 24 different personalities who kidnaps and imprisons three teenage girls in an isolated underground facility.",
+        "stars": "💜💜💜💜💜",
+        "image":  "/img/movies/Split.jpg",
+        "type": "movie",
+        "released": "2016"
+    },
+    {
+        "id": 6,
+        "name": "I am Mother",
+        "description": "The film had its world premiere on 25 January 2019.",
+        "largerDescription": "Starring Clara Rugaard, Luke Hawker, Rose Byrne, and Hilary Swank, the film follows Daughter, a girl in a post-apocalyptic bunker, being raised by Mother, a robot aiding the repopulation of Earth. The film had its world premiere at the Sundance Film Festival on 25 January 2019.",
+        "stars": "💜💜💜",
+        "image":  "/img/movies/IamMother.jpg",
+        "type": "movie",
+        "released": "2019"
+    },
+    {
+        "id": 7,
+        "name": "What Happened to Monday",
+        "description": "A set of identical septuplets must avoid being put to a long sleep",
+        "largerDescription": "In a world where families are limited to one child due to overpopulation, a set of identical septuplets must avoid being put to a long sleep by the government and dangerous infighting while investigating the disappearance of one of their own.",
+        "stars": "💜💜",
+        "image":  "/img/movies/WhatHappenedToMonday.jpg",
+        "type": "movie",
+        "released": "2017"
+    },
+    {
+        "id": 8,
+        "name": "The Woman in the Window",
+        "description": "The film follows an agoraphobic woman who spy on her neighbors",
+        "largerDescription": "The film follows an agoraphobic woman (Amy Adams) who begins to spy on her new neighbors (Gary Oldman, Fred Hechinger, and Julianne Moore) and is witness to a crime in their apartment. Anthony Mackie, Wyatt Russell, Brian Tyree Henry, and Jennifer Jason Leigh also star.",
+        "stars": "💜💜💜💜💜",
+        "image":  "/img/movies/TheWomanInTheWindow.jpg",
+        "type": "movie",
+        "released": "2021"
+    }
+]
